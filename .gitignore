@@ -1,0 +1,30 @@
+
+# .gitignore for Java Maven Project
+
+# Maven
+target/
+*.log
+dependency-reduced-pom.xml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Temporary Files
+*.hwp
+*.xlsx
+~$*.xlsx
+*.zip
+maven.zip
+apache-maven-*/
+
+# Logs
+build_log*.txt
+
+# OS
+Thumbs.db
+Desktop.ini
